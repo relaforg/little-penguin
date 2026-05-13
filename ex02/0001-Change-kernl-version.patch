@@ -1,0 +1,26 @@
+From c8986ad1d0f0770cc621b20c24d48766a5079a64 Mon Sep 17 00:00:00 2001
+From: relaforg <laforgueremi@gmail.com>
+Date: Wed, 13 May 2026 11:33:59 +0200
+Subject: [PATCH] Change kernl version
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index b7b80e84e1eb..6069a263292d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 7
+ PATCHLEVEL = 1
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc3
++EXTRAVERSION = -rc3-thor_kernel
+ NAME = Baby Opossum Posse
+ 
+ # *DOCUMENTATION*
+-- 
+2.53.0
+
+Signed-off-by: Rémi LAFORGUE <laforgueremi@gmail.com>
