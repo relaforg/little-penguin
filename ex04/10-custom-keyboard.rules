@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ACTION=="add", ATTR{bInterfaceClass}=="03", RUN="/sbin/insmod /root/little-penguin/ex04/mon_clavier.ko"
+SUBSYSTEM=="usb", ACTION=="remove", ATTR{bInterfaceClass}=="03", RUN="/sbin/rmmod /root/little-penguin/ex04/mon_clavier.ko"
